@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Form Validation Demo</title>
+    <link rel="stylesheet" href="signupin.css">
+</head>
+<body>
+
+  <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login1.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="">Sign Up</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./explore.html">Explore</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </nav>
+    <div id="main">
+        <form id="signup" class="form">
+            <h1>Sign Up</h1>
+            <div class="form-field">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" autocomplete="off"><br>
+                <small></small>
+            </div>
+<br>
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" autocomplete="off">
+                <small></small>
+            </div>
+<br>
+            <div class="form-field">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" autocomplete="off">
+                <small></small>
+            </div>
+
+<br>
+            <div class="form-field">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" name="confirm-password" id="confirm-password" autocomplete="off">
+                <small></small>
+            </div>
+<br>
+            <div class="form-field">
+                <input type="submit" value="Sign Up">
+            </div>
+            
+        </form>
+    </div>
+  </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
+

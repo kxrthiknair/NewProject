@@ -1,0 +1,40 @@
+#main{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background-image:url("./images/IMG-20211031-WA0024.jpg");
+    background-color: rgba(0, 0, 0,0.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+form{
+    width: 30vw;
+}
+form div label{
+    color: white;
+}
+
+td,h2{
+    color: gray;
+}
+
+.login{
+    color: #fff;
+}
+  
+#main table{font-family:"Comic Sans MS", cursive;}
+/* css code for textbox */
+#main .tb{ border:1px solid #f26724; color:#fd7838; font-weight:bold; border-left:5px solid #f7f7f7; opacity:0.9;}
+
+#main .tb:focus{ border:1px solid #f26724; outline:none; border-left:5px solid #f7f7f7;}
+
+#main .btn{width:150px; height:32px; outline:none;  color:#f7f7f7; font-weight:bold; border:0px solid #f26724; 
+text-shadow: 0px 0.5px 0.5px #fff; border-radius: 2px; font-weight: 600; color: #f26724; letter-spacing: 1px; 
+font-size:14px; background-color:#f1f1f1; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;}
+
+#main .btn:hover{
+background-color:#f26724; outline:none;  border-radius: 2px; color:#f1f1f1; border:1px solid #f1f1f1;
+-webkit-transition: 1s; -moz-transition: 1s; transition: 1s; 
+}
